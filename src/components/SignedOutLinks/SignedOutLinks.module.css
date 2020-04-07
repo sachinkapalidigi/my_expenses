@@ -1,0 +1,9 @@
+.SignedOutLinksNavlink {
+  /* margin: 0 10px; */
+  font-size: large;
+  font-weight: bold;
+}
+
+.SelectedNavlink {
+  color: azure;
+}
