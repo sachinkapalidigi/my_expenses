@@ -33,12 +33,12 @@ function DashboardTemplate() {
           className="site-layout-background"
           breakpoint="sm"
           collapsedWidth="0"
-          onBreakpoint={(broken) => {
-            console.log(broken);
-          }}
-          onCollapse={(collapsed, type) => {
-            console.log(collapsed, type);
-          }}
+          // onBreakpoint={(broken) => {
+          //   console.log(broken);
+          // }}
+          // onCollapse={(collapsed, type) => {
+          //   console.log(collapsed, type);
+          // }}
         >
           <Menu
             mode="inline"

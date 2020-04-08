@@ -10,7 +10,7 @@ const { Footer } = Layout;
 
 const UserDashboard = (props) => {
   const { match } = props;
-  console.log(match.path);
+
   return (
     <>
       <Layout>

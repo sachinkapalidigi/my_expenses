@@ -13,10 +13,10 @@ const MainNavbar = (props) => {
   return (
     <Header className="header">
       <Row justify="space-between">
-        <Col span={4}>
+        <Col xs={0} sm={0} md={4}>
           <div className={styles.logo} />
         </Col>
-        <Col xs={0} sm={0} md={8}>
+        <Col xs={24} sm={24} md={8}>
           <Menu
             theme="dark"
             mode="horizontal"
@@ -24,6 +24,7 @@ const MainNavbar = (props) => {
             style={{
               justifyContent: 'flex-end',
               maxHeight: '90%',
+              textAlign: 'center',
             }}
           >
             {token ? <SignedInLinks /> : <SignedOutLinks />}

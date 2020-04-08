@@ -19,7 +19,13 @@ const App = (props) => {
     <Layout>
       <MainNavbar />
       <Switch>
-        <Route exact path="/" component={LandingPage} />
+        <Route
+          exact
+          path="/"
+          render={() =>
+            token ? <Redirect to="/dashboard" /> : <LandingPage />
+          }
+        />
         <Route
           exact
           path="/login"

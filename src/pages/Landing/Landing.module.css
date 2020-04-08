@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  /* margin-bottom: -150px; */
+}
+
+.content {
+  flex: 1 0 auto;
+  /* min-height: 100%; */
+
+  /* margin-bottom: -150px; */
+}
+.footer,
+.push {
+  flex-shrink: 0;
+  text-align: center;
+  height: 150px;
+}

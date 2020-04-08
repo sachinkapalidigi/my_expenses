@@ -13,7 +13,7 @@ export const authInstance = () => {
   const {
     auth: { token },
   } = store.getState();
-  console.log(token, store.getState());
+
   if (token) {
     instance.defaults.headers.Authorization = token;
   }

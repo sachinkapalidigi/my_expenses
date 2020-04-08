@@ -7,7 +7,7 @@ const SignedOutLinks = () => {
   return (
     <>
       <Row justify="start" align="middle">
-        <Col md={10} lg={6}>
+        <Col xs={12} md={10} lg={6}>
           <NavLink
             activeClassName={styles.SelectedNavlink}
             className={styles.SignedOutLinksNavlink}
@@ -16,7 +16,7 @@ const SignedOutLinks = () => {
             Register
           </NavLink>
         </Col>
-        <Col md={10} lg={6}>
+        <Col xs={12} md={10} lg={6}>
           <NavLink
             activeClassName={styles.SelectedNavlink}
             className={styles.SignedOutLinksNavlink}
